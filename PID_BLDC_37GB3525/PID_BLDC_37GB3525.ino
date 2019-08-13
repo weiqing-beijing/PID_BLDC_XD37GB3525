@@ -1,3 +1,10 @@
+/***************************************************************
+* Arduino PID Library - Version 1.2.1
+* by Brett Beauregard <br3ttb@gmail.com> brettbeauregard.com
+*
+* This Library is licensed under the MIT License
+***************************************************************/
+
 #include <PID_v1.h>
 #define GearedWheelSpeed(x) (((x/10.0)/6.0) * 60.0 )  //the sensor reading is (((total no. of signals per second / gear ratio) / no. of signal per round of motor) * no. of second per minute) 
 
