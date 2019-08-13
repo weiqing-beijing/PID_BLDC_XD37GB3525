@@ -1,4 +1,4 @@
-# PID_BLDC_XD37GB3525
+# Arduino PID test code for XD37GB3525 BLDC
 This is the PID test code by Arduino(tested on Arduino Leonardo) for [XD-37GB3525 BLDC(Brushless DC Motor)](https://item.taobao.com/item.htm?id=596439838484) with built-in driver using Arduino PID library developed by [Brett Beauregard](https://github.com/br3ttb/Arduino-PID-Library).
 
 Connection(Note: the voltage level on motor is 5V compatible. Need 5V-3.3V level convertor when using micro-controller with 3.3V GPIO, such as esp32/esp8266 or most ARM MCUs):
